@@ -4,10 +4,10 @@ sns = boto3.client('sns')
 
 def handler(event,context):
     sns.publish(
-        PhoneNumber='+15558887777', 
+        PhoneNumber='+61476756622', 
         Message=(
-            'Hello! This is your reminder to '
-            'schedule an AWS Certification Exam!'
+            'Hello! Karan You are an AWS devops engineer'
+            'You will Succeed in Sydney Australia!'
         )
     )
     return 'success'
